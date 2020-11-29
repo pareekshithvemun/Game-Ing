@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Game-Ing</string>
+
+    <string-array name="City">
+        <item>Banglore</item>
+        <item>Hyderabad</item>
+        <item>Chennai</item>
+    </string-array>
+</resources>

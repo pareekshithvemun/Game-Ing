@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".postadv">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview1"
+        android:background="#00FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="Choose Image"
+        android:textColor="@color/common_google_signin_btn_text_light"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/textview1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:foregroundTint="#00070707"
+        android:scaleType="fitXY"/>
+
+
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description of product"
+        android:layout_below="@+id/imageview1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price in INR"
+        android:inputType="number"
+        android:layout_below="@+id/description"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address for pickup"
+        android:layout_below="@+id/price"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Address"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Button"
+        android:id="@+id/postad"
+        android:layout_below="@+id/Phone"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Post Ad"
+        android:textSize="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+
+
+</RelativeLayout>

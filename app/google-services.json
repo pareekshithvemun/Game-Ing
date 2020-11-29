@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "352055823256",
+    "firebase_url": "https://game-ing-87c8f.firebaseio.com",
+    "project_id": "game-ing-87c8f",
+    "storage_bucket": "game-ing-87c8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352055823256:android:042b70f121649614b539ed",
+        "android_client_info": {
+          "package_name": "com.example.game_ing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352055823256-jg08hbu8m2ejah6ce5g41vf0hk57b1s1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.game_ing",
+            "certificate_hash": "cf9233a47d08127370fb4376359ed22742af15fb"
+          }
+        },
+        {
+          "client_id": "352055823256-sujb5vg7m8vju4f2509qhd9fc4r14iia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBphm7bmwRTTvnT5kpztIkTIsF9YEcayA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352055823256-sujb5vg7m8vju4f2509qhd9fc4r14iia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
